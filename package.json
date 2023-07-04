@@ -1,0 +1,21 @@
+{
+  "name": "e2epowerus",
+  "version": "1.0.0",
+  "description": "This is an assignment for end to end tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smawais90/E2EPowerUs.git"
+  },
+  "author": "Syed Muhammad Awais",
+  "devDependencies": {
+    "cypress": "^12.14.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "typescript": "^5.1.3"
+  }
+}
